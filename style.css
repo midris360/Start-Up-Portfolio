@@ -1,0 +1,80 @@
+/*This selector is focused on the headers at the top with my name and titles */
+.top-headers {
+  text-align: center; /* centers the text at the top */
+  font-family: Arial, Helvetica, sans-serif; /* changes the font to Arial and if not, then Helvetica, etc. */
+  color: royalblue; /* color is blue type shade */
+  padding-top: 5px; /* this gives the top of the header container space at the top of 5 pixels of space. */
+}
+
+/* This selector is focused on the body of the webpage which gives a background and size of it plus margin of where it starts */
+body {
+  background: url(https://images.pexels.com/photos/1587/blurred-background.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px 80px;
+  height: 20px;
+}
+
+
+/* This selector focuses on what is in the main which located in the middle where the paragraphs are*/
+main {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 12px;
+  padding: 20px 10px;
+}
+
+
+/* This selector is focused on the paragraphs located in the middle of the webpage which is just giving it color */
+.pseudo, p {
+  color: white;
+}
+
+
+/* this selector is focused on the images of this webpage which there is only one image and makes it size of 200 pixels */
+img {
+  width: 200px;
+}
+
+
+/* this selector is focused on the footer which it is centering the content and giving it color */
+footer {
+  color: white;
+  text-align: center;
+}
+
+/* this selector is focused on the first headers of the heirarchy */
+h1 {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* This selector is focused on list, either ordered or unordered which its giving color and no style to it */
+li {
+  color: white;
+  list-style-type: none;
+}
+
+
+/* this selector is one of four pseudo-class selector which the first link of the classes */
+a:link {
+  color: aqua;
+}
+
+
+/* Then it is the second order of a link where a user has visited the link already in which the link will be a different color */
+a:visited {
+  color: burlywood;
+}
+
+
+/* This is the 3rd selector pseudo-class link where a user hovers over the link then the link will turn beige. */
+a:hover {
+  color: beige;
+}
+
+
+/* the last pseudo-class of a link which is the active stage, when a user has activated the link clicking it, the link turns violet */
+a:active {
+  color: blueviolet;
+}
